@@ -1,0 +1,7 @@
+CREATE TABLE movie_info (
+  id INT PRIMARY KEY AUTO_INCREMENT,  
+  title VARCHAR(255) NOT NULL,         
+  released DATE,                       
+  director VARCHAR(255) NOT NULL,      
+  genre VARCHAR(255)                   
+);
